@@ -31,11 +31,6 @@ Instead of generating them one by one or relying on online tools, this script he
 
 ---
 
-## 🚀 Usage
-
-```bash
-python pwd_generator.py
-
 ## ✅ To-Do / Future Ideas
 
 - ✅ Add option to export generated passwords directly to a `.csv` file
