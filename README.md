@@ -1,7 +1,7 @@
 # 🔐 pwd-generator
 
-**pwd-generator** is a simple Python script for generating secure, random passwords.  
-I created this tool for personal use, especially when managing multiple user accounts at once in my daily work.
+**pwd-generator** is a simple Python script for generating secure random passwords.  
+I created this tool for use at work, where I often need to manage multiple user accounts at once.
 
 There are many password generators online, but this one fits my workflow:  
 it allows me to quickly generate and copy multiple strong passwords at once, even into formats like CSV if needed.
