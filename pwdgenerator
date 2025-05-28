@@ -1,0 +1,33 @@
+import random
+import string
+
+def generate_passwords(amount):
+    passwords = []
+    special_characters = ['!', '#']
+
+    for _ in range(amount):
+        upper_case_letter = random.choice(string.ascii_uppercase)
+        number = random.choice(string.digits)
+        special_character = random.choice(special_characters)
+
+        other_characters = random.choices(string.ascii_letters + string.digits, k=14)
+
+        password_list = [upper_case_letter, number, special_character] + other_characters
+        random.shuffle(password_list)
+
+        password = ''.join(password_list)
+        passwords.append(password)
+
+    return passwords
+
+try:
+    count = int(input("How many passwords would you like to generate? "))
+    if count < 1:
+        print("Needs to be atleast one.")
+    else:
+        generated_passwords = generate_passwords(count)
+        print("Generated passwords:")
+        for password in generated_passwords:
+            print(password)
+except ValueError:
+    print("Give an actual number.")
