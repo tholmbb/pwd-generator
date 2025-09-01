@@ -1,4 +1,4 @@
-# 🔐 pwd-generator
+# pwd-generator
 
 **pwd-generator** is a simple Python script for generating secure random passwords.  
 I created this tool for use at work, where I often need to manage multiple user accounts at once.
@@ -8,7 +8,7 @@ it allows me to quickly generate and copy multiple strong passwords at once, eve
 
 ---
 
-## 💡 Why I Made This
+## Why I Made This
 
 In user account management, I often needed to create multiple passwords at once.  
 Instead of generating them one by one or relying on online tools, this script helps me:
@@ -19,7 +19,7 @@ Instead of generating them one by one or relying on online tools, this script he
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Generate one or more strong passwords at a time
 - Each password includes:
@@ -31,13 +31,13 @@ Instead of generating them one by one or relying on online tools, this script he
 
 ---
 
-## ✅ To-Do / Future Ideas
+## To-Do / Future Ideas
 
-- ✅ Add option to export generated passwords directly to a `.csv` file
-- ⌨️ Add command-line arguments (e.g. password length, number of passwords)
-- 🛡️ Support for different complexity levels (e.g. no special characters, min/max length)
-- 🔄 Clipboard integration (automatically copy first password)
-- 📦 Turn into an installable package or CLI tool
-- 📋 GUI version using Tkinter or PyQt
-- 🧪 Add unit tests for password generation logic
-- 🔧 Logging or verbose mode for debug purposes
+- Add option to export generated passwords directly to a `.csv` file
+- Add command-line arguments (e.g. password length, number of passwords)
+- Support for different complexity levels (e.g. no special characters, min/max length)
+- Clipboard integration (automatically copy first password)
+- Turn into an installable package or CLI tool
+- GUI version using Tkinter or PyQt
+- Add unit tests for password generation logic
+- Logging or verbose mode for debug purposes
