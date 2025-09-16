@@ -10,7 +10,7 @@ I created this tool for use at work, where I often need to manage multiple user 
 - Generate one or more strong passwords at a time
 - Each password includes:
   - At least one uppercase letter
-  - One digit
+  - One number
   - One special character (`!` or `#`)
   - Additional randomized characters
 - Output is printed cleanly to the terminal – easy to copy/paste or redirect
